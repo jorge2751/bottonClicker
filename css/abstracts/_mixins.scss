@@ -1,0 +1,12 @@
+@mixin button($color, $padding_x, $padding_y) {
+    background-color: $color;
+    padding: $padding_x $padding_y;
+    border: 5px solid black;
+    box-shadow: 4px 5px black;
+}
+
+@mixin card {
+    padding: 15px;
+    border: 5px solid black;
+    margin: 10px;
+}
